@@ -1,16 +1,18 @@
 let java = ['Niki', 1, 'Jay', 2, 'Sanjay', 3];
 let net = ["Niki", 4, 'Jay', 3, 'Sanjana', 5];
-let Developersjava = [];
-for (let i = 0; i < java.length; i++) {
+
+let netprojectstr = [];
+for (let i = 1; i < java.length; i += 2) {
     if (typeof java[i] === 'string') {
-        Developersjava.push(java[i]);
+        netprojectstr.push(java[i]);
     }
 }
-let Developersnet = [];
-for (let i = 0; i < java.length; i++) {
-    if (typeof java[i] === 'string') {
-        Developersnet.push(java[i]);
+console.log(netprojectstr);
+
+let javaprojectstr = [];
+for (let i = 1; i < net.length; i += 2) {
+    if (typeof net[i] === 'string') {
+        javaprojectstr.push(net[i]);
     }
 }
-const commonStrings = Developersnet.filter((value) => Developersjava.includes(value));
-console.log(commonStrings);
+console.log(javaprojectstr);

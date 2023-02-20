@@ -1,4 +1,4 @@
-var numbers = [8, 18, 8, 6, 14, 10, 14, 17 , 20, 25];
+var numbers = [8, 18, 8, 6, 14, 10, 14];
 var odds = numbers.filter(function (num) { return num % 2 === 1; });
 if (odds.length === 0) {
     console.log("No Odd Number found");

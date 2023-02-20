@@ -1,4 +1,4 @@
-var ques2 = ["Smit", "Raj",33,65];
+var ques2 = ["Smit", "Raj",];
 var num = [];
 for (var _i = 0, ques2_1 = ques2; _i < ques2_1.length; _i++) {
     var index = ques2_1[_i];

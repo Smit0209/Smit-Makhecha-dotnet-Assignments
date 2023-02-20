@@ -1,5 +1,5 @@
 
-const ques2 =["Smit","Raj"];
+const ques2 =["Smit","Raj",33,65];
 const num = [];
 for (let index of ques2){
     if (typeof(index)=="number"){
